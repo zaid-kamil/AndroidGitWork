@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "964607638296",
+    "firebase_url": "https://crucial-bucksaw-155713.firebaseio.com",
+    "project_id": "crucial-bucksaw-155713",
+    "storage_bucket": "crucial-bucksaw-155713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964607638296:android:7a719cb0f44fbadf",
+        "android_client_info": {
+          "package_name": "trainedge.cloudauthsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964607638296-k30vklr17ou9e12am4uandhtbtt57ame.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.cloudauthsystem",
+            "certificate_hash": "1f0d38f4338313913ca0dee0b5ec7514aba7954d"
+          }
+        },
+        {
+          "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMZ5992IYpyzJPy2qzE4nccRRdTTAEKSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
