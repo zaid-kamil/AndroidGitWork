@@ -6,19 +6,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button b1;
+public class Main3Activity extends AppCompatActivity implements View.OnClickListener {
+    Button b3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        b1= (Button) findViewById(R.id.b1);
-        b1.setOnClickListener(this);
+        setContentView(R.layout.activity_main3);
+        b3= (Button) findViewById(R.id.b3);
+        b3.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
-        Intent i=new Intent(MainActivity.this,Main2Activity.class);
-        startActivity(i);
+        Intent i3=new Intent(Main3Activity.this,Main4Activity.class);
+        startActivity(i3);
     }
 }

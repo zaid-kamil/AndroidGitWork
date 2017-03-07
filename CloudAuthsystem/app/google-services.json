@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "964607638296-86hkp8ccsemvkpeb50of80uff69g8j10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.cloudauthsystem",
+            "certificate_hash": "f01cff77e64ab310a5f803bef07cf1d2cd24d279"
+          }
+        },
+        {
           "client_id": "964607638296-k30vklr17ou9e12am4uandhtbtt57ame.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
