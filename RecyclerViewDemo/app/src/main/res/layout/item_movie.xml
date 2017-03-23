@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="1dp"
+    android:background="?attr/selectableItemBackground"
+    android:clickable="true"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/tvMovieName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/ic_local_movies_black_24dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Movie Name"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvStudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvMovieName"
+        android:layout_alignStart="@+id/tvMovieName"
+        android:layout_below="@+id/tvMovieName"
+        android:drawableLeft="@drawable/ic_movie_black_24dp"
+        android:drawablePadding="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Studio"
+        android:textAllCaps="true"
+        android:textSize="14sp" />
+
+    <RatingBar
+        android:id="@+id/rbStars"
+        style="@style/Widget.AppCompat.RatingBar.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="16dp"
+        android:numStars="5"
+        android:rating="4"
+        android:stepSize="0.5" />
+</RelativeLayout>

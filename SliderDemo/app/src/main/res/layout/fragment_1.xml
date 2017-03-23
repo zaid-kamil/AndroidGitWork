@@ -1,0 +1,10 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff3"
+    tools:context="trainedge.sliderdemo.Fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="trainedge.sociallogindemo.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/ivGoogleSignIn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/common_google_signin_btn_text_dark_normal"
+        android:text="Connect With Google"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/common_google_signin_btn_text_dark_normal"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/facebook_login"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="24dp"
+        android:padding="8dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        app:fb_defaultColor="#39579B"
+        app:fb_focusColor="#6183d2"
+        app:fb_fontIconResource="&#xf230;"
+        app:fb_fontIconSize="20sp"
+        app:fb_iconPaddingRight="32dp"
+        app:fb_iconPosition="left"
+        app:fb_radius="3dp"
+        app:fb_text="Connect with Facebook"
+        app:fb_textColor="#ffffff"
+        app:fb_textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/ivGoogleSignIn" />
+
+</android.support.constraint.ConstraintLayout>
