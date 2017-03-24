@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="trainedge.settingsdemo.SettingsActivity"
+    tools:showIn="@layout/activity_settings"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:text="default email address "
+        android:textStyle="bold"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/etDefEmail"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/etDefEmail" />
+
+    <EditText
+        android:id="@+id/etDefEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textSize="14sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="40dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:drawableLeft="@drawable/ic_wifi_black_24dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:text="Only Allow Downloading using Wifi"
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/etDefEmail"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="When checked, allow downloading in wifi only"
+        android:textSize="12sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/textView2" />
+
+    <Switch
+        android:id="@+id/switchWifiOp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_marginEnd="16dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="23dp"
+        app:layout_constraintTop_toBottomOf="@+id/etDefEmail"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:drawableLeft="@drawable/ic_cloud_upload_black_24dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:text="Allow automatic cloud sync"
+        android:textStyle="bold"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="278dp"
+        android:layout_height="16dp"
+        android:text="When enabled sync data to cloud and device automatically"
+        android:textSize="12sp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/btnClearSettings"
+        android:layout_marginTop="24dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="18dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <Switch
+        android:id="@+id/switchCloudSyncOp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        app:layout_constraintLeft_toLeftOf="@+id/switchWifiOp"
+        app:layout_constraintRight_toRightOf="@+id/switchWifiOp"
+        app:layout_constraintTop_toBottomOf="@+id/switchWifiOp"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <Button
+        android:id="@+id/btnClearSettings"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_delete_black_24dp"
+        android:drawablePadding="16dp"
+        android:gravity="left|center_vertical"
+        android:text="Clear Settings"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginStart="8dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="34dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="0dp" />
+
+</android.support.constraint.ConstraintLayout>
