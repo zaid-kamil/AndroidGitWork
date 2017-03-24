@@ -49,7 +49,11 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         switchWifiOp.setOnCheckedChangeListener(this);
         switchCloudSyncOp.setOnCheckedChangeListener(this);
         etDefEmail.addTextChangedListener(this);
+
+        //read pref to update ui too
+        updateUI();
     }
+
 
     @Override
     public void onClick(View v) {
@@ -57,6 +61,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         SharedPreferences.Editor editor = pref.edit();
         editor.clear();
         editor.apply();
+        //pref.edit().clear().apply();
     }
 
     @Override
@@ -72,6 +77,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
                 editor.putBoolean("cloud_option", isChecked);
                 break;
         }
+        //save setting
         editor.apply();
     }
 
@@ -103,5 +109,14 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
     public void onBackPressed() {
         super.onBackPressed();
         Toast.makeText(this, "Settings saved", Toast.LENGTH_SHORT).show();
+    }
+
+    private void updateUI() {
+        boolean wifi_state = pref.getBoolean("wifi_option", false);
+        boolean cloud_state = pref.getBoolean("cloud_option", false);
+        String email = pref.getString("def_email", "");
+        switchWifiOp.setChecked(wifi_state);
+        switchCloudSyncOp.setChecked(cloud_state);
+        etDefEmail.setText(email);
     }
 }
