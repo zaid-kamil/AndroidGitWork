@@ -90,7 +90,7 @@ public class SettingsActivity extends AppCompatActivity implements View.OnClickL
         //saving email address
         SharedPreferences.Editor editor = pref.edit();
         String email = s.toString();
-        if (email.isEmpty() || email.length() < 10 || !email.contains("@")) {
+        if (email.isEmpty() && email.length() < 10 && !email.contains("@")) {
             etDefEmail.setError("Please give default email address");
             return;
         }
