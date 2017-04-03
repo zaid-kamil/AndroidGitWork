@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1078137874043",
+    "firebase_url": "https://upheld-coast-154705.firebaseio.com",
+    "project_id": "upheld-coast-154705",
+    "storage_bucket": "upheld-coast-154705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078137874043:android:f92994b78e9bdf1d",
+        "android_client_info": {
+          "package_name": "trainedge.firebasedatabasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078137874043-8s1lq1qn85jjbgml0jvtmj4lhevdcsh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.firebasedatabasedemo",
+            "certificate_hash": "f01cff77e64ab310a5f803bef07cf1d2cd24d279"
+          }
+        },
+        {
+          "client_id": "1078137874043-t3oqmm81kqk4r3850sjnj9ug7upakufr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPoFUl0olmKxCFvZVycqSMxhmpHS-ZQ3k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078137874043-t3oqmm81kqk4r3850sjnj9ug7upakufr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

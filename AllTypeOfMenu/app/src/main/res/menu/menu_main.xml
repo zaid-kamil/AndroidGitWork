@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_context_ex"
+        android:icon="@drawable/ic_list_black_24dp"
+        android:title="Context Menu"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_pop_ex"
+        android:icon="@drawable/ic_graphic_eq_black_24dp"
+        android:title="Popup menu "
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_actionmode"
+        android:title="ActionMode" />
+    <item
+        android:id="@+id/action_dialog"
+        android:title="Dialog Box" />
+</menu>
