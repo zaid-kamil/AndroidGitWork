@@ -1,0 +1,211 @@
+{
+  "project_info": {
+    "project_number": "964607638296",
+    "firebase_url": "https://crucial-bucksaw-155713.firebaseio.com",
+    "project_id": "crucial-bucksaw-155713",
+    "storage_bucket": "crucial-bucksaw-155713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964607638296:android:7a719cb0f44fbadf",
+        "android_client_info": {
+          "package_name": "trainedge.cloudauthsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964607638296-9ef1do6eudsctgh3rb8m6f7fr6ojfnsj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.cloudauthsystem",
+            "certificate_hash": "864f64e5ef0cd50bd4fb67a8802be94d33c26da1"
+          }
+        },
+        {
+          "client_id": "964607638296-qvgch6i8742mdphdj32vrstl7rmaqqj3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.cloudauthsystem",
+            "certificate_hash": "70d057199399f06750b2333c6b733ac59c8d99f0"
+          }
+        },
+        {
+          "client_id": "964607638296-86hkp8ccsemvkpeb50of80uff69g8j10.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.cloudauthsystem",
+            "certificate_hash": "f01cff77e64ab310a5f803bef07cf1d2cd24d279"
+          }
+        },
+        {
+          "client_id": "964607638296-k30vklr17ou9e12am4uandhtbtt57ame.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.cloudauthsystem",
+            "certificate_hash": "1f0d38f4338313913ca0dee0b5ec7514aba7954d"
+          }
+        },
+        {
+          "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMZ5992IYpyzJPy2qzE4nccRRdTTAEKSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964607638296:android:c983786daa8b4afc",
+        "android_client_info": {
+          "package_name": "com.example.nirbhay.major_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964607638296-94d20vtunvlrs3cqd1vi6hu09hvsb96s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nirbhay.major_project",
+            "certificate_hash": "70d057199399f06750b2333c6b733ac59c8d99f0"
+          }
+        },
+        {
+          "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMZ5992IYpyzJPy2qzE4nccRRdTTAEKSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964607638296:android:bd0e51bbf3e546a9",
+        "android_client_info": {
+          "package_name": "trainedge.recyclerviewdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964607638296-3611gn39sn5b4r4sfvla88jn1jkmddvv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.recyclerviewdemo",
+            "certificate_hash": "f01cff77e64ab310a5f803bef07cf1d2cd24d279"
+          }
+        },
+        {
+          "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMZ5992IYpyzJPy2qzE4nccRRdTTAEKSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964607638296:android:3c4808a7281412a9",
+        "android_client_info": {
+          "package_name": "trainedge.recyclerview_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964607638296-09occpv64e88eh7mkul316ogig9iva1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.recyclerview_demo",
+            "certificate_hash": "f01cff77e64ab310a5f803bef07cf1d2cd24d279"
+          }
+        },
+        {
+          "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMZ5992IYpyzJPy2qzE4nccRRdTTAEKSo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964607638296-295s5bgrjlk09i89l83sld10uo9hgdok.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
