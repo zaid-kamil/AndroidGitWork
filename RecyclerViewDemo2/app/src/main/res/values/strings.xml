@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">RecyclerViewDemo</string>
     <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="title_dashboard">Share</string>
     <string name="title_notifications">Notifications</string>
     <string name="invitation_title">Connect Now</string>
     <string name="invitation_message">Install our app to get amazing life</string>

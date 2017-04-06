@@ -27,11 +27,13 @@ import com.google.firebase.database.ValueEventListener;
 import java.util.ArrayList;
 import java.util.List;
 
+import de.cketti.shareintentbuilder.ShareIntentBuilder;
+
 import jp.wasabeef.recyclerview.animators.SlideInUpAnimator;
 
-public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener{
+public class MainActivity extends AppCompatActivity implements GoogleApiClient.OnConnectionFailedListener {
 
-    public static final int REQUEST_INVITE =232;
+    public static final int REQUEST_INVITE = 232;
     private GoogleApiClient mGoogleApiClient;
 
     public static final String TAG = "MainActivity";
@@ -45,7 +47,12 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
 
                     return true;
                 case R.id.navigation_dashboard:
-
+                    ShareIntentBuilder.from(MainActivity.this)
+                            .text("Sharing is caring!")
+                            .subject("Very important message")
+                            .to("everyone@example.com")
+                            .cc("carebear@example.com")
+                            .share();
                     return true;
                 case R.id.navigation_notifications:
                     sendInvitation();
@@ -158,7 +165,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     @Override
     protected void onStart() {
         super.onStart();
-        if (mGoogleApiClient!=null) {
+        if (mGoogleApiClient != null) {
             mGoogleApiClient.connect();
         }
     }
@@ -166,7 +173,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     @Override
     protected void onStop() {
         super.onStop();
-        if (mGoogleApiClient!=null && mGoogleApiClient.isConnected()) {
+        if (mGoogleApiClient != null && mGoogleApiClient.isConnected()) {
             mGoogleApiClient.disconnect();
         }
     }
