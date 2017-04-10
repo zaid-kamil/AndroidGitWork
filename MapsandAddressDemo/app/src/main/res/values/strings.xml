@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MapsandAddressDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="service_not_available">service not available</string>
+    <string name="invalid_lat_long_used">invalid latitude longitude</string>
+    <string name="no_address_found">no address found for the location</string>
+    <string name="address_found">address found</string>
+</resources>
